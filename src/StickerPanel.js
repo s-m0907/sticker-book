@@ -1,9 +1,12 @@
-function StickerPanel () {
-    return(
-    <div>
-        Sticker Panel
-    </div>
-    )
+function StickerPanel() {
+  return <div
+  style={{
+    border: "solid blue",
+    padding: "15px",
+    flex: "1",
+    backgroundColor: 'yellow',
+  }}
+/>
 }
 
-export default StickerPanel
+export default StickerPanel;

@@ -1,15 +1,8 @@
-import './App.css';
-import MainPanel from './MainPanel';
-import StickerPanel from './StickerPanel';
+import "./App.css";
+import Book from "./Book";
 
 function App() {
-  return (
-    <div>
-
-      <MainPanel/>
-      <StickerPanel/>
-    </div>
-  );
+  return <Book />;
 }
 
 export default App;
