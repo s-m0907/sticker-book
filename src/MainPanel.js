@@ -1,4 +1,4 @@
-import Background from "./assets/bird1-coot.PNG";
+import Background from "./assets/landscape-demo.jpg";
 
 function MainPanel() {
   return (

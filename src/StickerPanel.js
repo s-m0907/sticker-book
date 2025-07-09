@@ -1,3 +1,5 @@
+import Sticker from './Sticker';
+
 function StickerPanel() {
   return <div
   style={{
@@ -5,8 +7,9 @@ function StickerPanel() {
     padding: "15px",
     flex: "1",
     backgroundColor: 'yellow',
-  }}
-/>
+  }}>
+    <Sticker />
+</div>
 }
 
 export default StickerPanel;
